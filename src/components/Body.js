@@ -4,7 +4,7 @@ import grid from '../img/photo-grid.png'
 const Body = () => {
   return (
     <section className="Body">
-        <img src={grid} />
+        <img src={grid} alt="" />
         <h1>Online Experiences</h1>
         <span>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</span>
     </section>

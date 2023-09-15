@@ -3,7 +3,7 @@ import logo from '../img/airbnb-logo.svg'
 const Header = () => {
   return (
     <div className="Header">
-      <img src={logo} />
+      <img src={logo} alt="" />
     </div>
   )
 }

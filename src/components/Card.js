@@ -1,7 +1,7 @@
 
 const Card = ({ item }) => {
     
-    const { title, description, price, coverImg, rating, reviewCount, location, openSpots } = item
+    const { title, price, coverImg, rating, reviewCount, location, openSpots } = item
     
     const grayText = {
         fontWeight: '300',
@@ -28,7 +28,7 @@ const Card = ({ item }) => {
         <div className="Card">
             <div className="status" style={openSpots === 0 ? shown : hidden}>SOLD OUT</div>
             <div className="img-container">
-                <img src={`./img/${coverImg}`} />
+                <img src={`./img/${coverImg}`} alt={title} />
             </div>
             <div className="card-text">
                 <div className="info">
